@@ -11,6 +11,12 @@ def calculate(map):
                 pass
     return sum
 
+def subtract(a, b):
+    return a - b
+
+def add(a, b):
+    return a + b
+
 def part1():
     with open("inputs/Day5.txt") as file:
         lines = []
@@ -81,14 +87,5 @@ def part1():
         print(row)
     print(calculate(map))
     
-def subtract(a, b):
-    return a - b
-
-def add(a, b):
-    return a + b
-
-def part2():
-    ""
-
 if __name__ == "__main__":
     part1()
